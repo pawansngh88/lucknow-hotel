@@ -49,7 +49,8 @@ hr {
 
 .splashContent {
     content: '';
-    background: url('https://i.imgur.com/P0c9Ny3.jpg') no-repeat;
+    /*background: url('https://i.imgur.com/P0c9Ny3.jpg') no-repeat;*/
+    background: url('https://i.imgur.com/GtY9Rtw.jpg') no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
