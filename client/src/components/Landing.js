@@ -65,7 +65,7 @@ class Landing extends Component {
                             <h4>
                                 Our hotel features a world-class auditorium, newly remodeled fitness facility, and the best downtown views of
                                 Lucknow's historic Market Street. Fantastic restaurants are plentiful and only short walks away.
-                                Public transportation via BART and MUNI are very accessible.
+                                Public transportation via Lucknow Metro is very accessible.
                             </h4>
                             <br />
                             <div className="learnMoreButton">
@@ -99,7 +99,7 @@ class Landing extends Component {
                         </div>
                         <div id="middleBlurb">
                             <div className="blurbBG2">
-                                <h3>SFO Shuttle</h3>
+                                <h3>Lucknow Shuttle</h3>
                                 <p>Simplify your travel experience by taking our shuttle directly from the Lucknow Airport to our hotel. We operate on a bi-hourly schedule and our courteous staff will always arrive early and be ready to handle your luggage.</p>
                                 <img src="https://png.icons8.com/shuttle/color/70" alt="shuttleRide" title="Shuttle" />
                             </div>
