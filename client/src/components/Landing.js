@@ -34,7 +34,7 @@ class Landing extends Component {
                 <div className="splashContent">
                     <div id="centerWelcomeAndCalendar">
                         <h1>Welcome to Hotel Lucknow</h1>
-                        <h4>A premier hotel in the heart of Downtown Lucknow, CA</h4>
+                        <h4>A premier hotel in the heart of Downtown Lucknow, IN</h4>
 
                         <div id="calendarPicker">
                             {/* Imported component - dynamic calendar */}
@@ -50,7 +50,7 @@ class Landing extends Component {
 
                 <div className="weatherAndTimeBannerContainer">
                     <h1>
-                        Local conditions in Lucknow, CA
+                        Local conditions in Lucknow, IN
                     </h1>
                     <h2>
                         {/* weather is static for right now */}
