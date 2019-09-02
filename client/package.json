@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.16.2",
-    "moment": "^2.18.1",
+    "axios": "^0.19.0",
+    "moment": "^2.24.0",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.3",
     "react-day-picker": "^6.1.0",
