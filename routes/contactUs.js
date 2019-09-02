@@ -34,7 +34,7 @@ module.exports = app => {
         }
 
 
-        // execute import function - send letter to Hotel NoMa customer service account
+        // execute import function - send letter to Hotel Lucknow customer service account
         mailForward.forwardContactUsEmail(message, emailAddress);
     });
 };

@@ -1,4 +1,4 @@
-//================================Welcome Hotel NoMa management!!!!===============================//
+//================================Welcome Hotel Lucknow management!!!!===============================//
 // Adjust all pricing here. Cents can be added, but will be rounded and only two digits displayed //
 //================================================================================================//
 

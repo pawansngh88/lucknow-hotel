@@ -33,8 +33,8 @@ class Landing extends Component {
             <div className="landingContainer">
                 <div className="splashContent">
                     <div id="centerWelcomeAndCalendar">
-                        <h1>Welcome to Hotel NoMa</h1>
-                        <h4>A premier hotel in the heart of Downtown San Francisco, CA</h4>
+                        <h1>Welcome to Hotel Lucknow</h1>
+                        <h4>A premier hotel in the heart of Downtown Lucknow, CA</h4>
 
                         <div id="calendarPicker">
                             {/* Imported component - dynamic calendar */}
@@ -50,7 +50,7 @@ class Landing extends Component {
 
                 <div className="weatherAndTimeBannerContainer">
                     <h1>
-                        Local conditions in San Francisco, CA
+                        Local conditions in Lucknow, CA
                     </h1>
                     <h2>
                         {/* weather is static for right now */}
@@ -64,7 +64,7 @@ class Landing extends Component {
                             <h2>The best amenities. Hands down.</h2>
                             <h4>
                                 Our hotel features a world-class auditorium, newly remodeled fitness facility, and the best downtown views of
-                                San Francisco's historic Market Street. Fantastic restaurants are plentiful and only short walks away.
+                                Lucknow's historic Market Street. Fantastic restaurants are plentiful and only short walks away.
                                 Public transportation via BART and MUNI are very accessible.
                             </h4>
                             <br />
@@ -100,7 +100,7 @@ class Landing extends Component {
                         <div id="middleBlurb">
                             <div className="blurbBG2">
                                 <h3>SFO Shuttle</h3>
-                                <p>Simplify your travel experience by taking our shuttle directly from the San Francisco Airport to our hotel. We operate on a bi-hourly schedule and our courteous staff will always arrive early and be ready to handle your luggage.</p>
+                                <p>Simplify your travel experience by taking our shuttle directly from the Lucknow Airport to our hotel. We operate on a bi-hourly schedule and our courteous staff will always arrive early and be ready to handle your luggage.</p>
                                 <img src="https://png.icons8.com/shuttle/color/70" alt="shuttleRide" title="Shuttle" />
                             </div>
                         </div>

@@ -224,7 +224,7 @@ class Checkout extends Component {
                 </div>
 
                 <h3 style={{ textAlign: 'center'}}>
-                    We hope you enjoy your stay at Hotel NoMa, San Francisco! Please ensure the
+                    We hope you enjoy your stay at Hotel Lucknow, Lucknow! Please ensure the
                     itinerary above is accurate before proceeding.
                 </h3>
 

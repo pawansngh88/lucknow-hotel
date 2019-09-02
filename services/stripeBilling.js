@@ -10,7 +10,7 @@ exports.processPayment = function(source, amount, confirmationNumber) {
         stripe.charges.create({
             amount: amount,
             currency: 'usd',
-            description: 'Hotel NoMa SF - (Confirmation#: ' + confirmationNumber + ')',
+            description: 'Hotel Lucknow SF - (Confirmation#: ' + confirmationNumber + ')',
             source: source.id
         });
     }
@@ -26,7 +26,7 @@ exports.refundPayment = function(source, confirmationNumber) {
         stripe.refunds.create({
             amount: amount,
             currency: 'usd',
-            description: 'Hotel NoMa SF - REFUND - (Confirmation#: ' + confirmationNumber + ')',
+            description: 'Hotel Lucknow SF - REFUND - (Confirmation#: ' + confirmationNumber + ')',
             source: source.id
         });
     }

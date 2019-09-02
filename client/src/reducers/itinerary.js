@@ -7,7 +7,7 @@ import moment from 'moment';
 const itineraryReducerSource = (state={
     // all customer info batched together here. Reorganized once entry is saved into DB
     itinerary: {
-        // default input parameters: one adult, staying one night based on current date in San Francisco, CA
+        // default input parameters: one adult, staying one night based on current date in Lucknow, CA
         numAdults: 1,
         enterDate: moment().utcOffset(-480).format("MM/DD/YYYY"),
         exitDate: moment().utcOffset(-480).add(1, 'days').format("MM/DD/YYYY"),

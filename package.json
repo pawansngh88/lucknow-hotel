@@ -1,7 +1,7 @@
 {
   "name": "lucknow-hotel",
   "version": "1.0.0",
-  "description": "Website for a fictitious hotel in San Francisco, CA",
+  "description": "Website for a fictitious hotel in Lucknow, IN",
   "main": "index.js",
   "engines": {
     "node": "10.16.3",

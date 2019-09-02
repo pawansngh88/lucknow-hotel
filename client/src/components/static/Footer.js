@@ -37,7 +37,7 @@ class Footer extends Component {
                                 &nbsp;&nbsp;|&nbsp;&nbsp;
                                 <Link to="/terms">Terms of Use</Link>
                                 <br />
-                                82796 Market St, San Francisco, CA 94442
+                                82796 Market St, Lucknow, CA 94442
                                 <br />
                                 Follow us on social media:&nbsp;
                                 <a target="_blank" href="https://www.facebook.com" rel="noopener noreferrer">

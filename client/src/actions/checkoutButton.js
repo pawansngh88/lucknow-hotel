@@ -86,7 +86,7 @@ class CheckoutButton extends Component {
         return(
             <div>
                 <StripeCheckout
-                    name='Hotel NoMa'
+                    name='Hotel Lucknow'
                     amount={this.props.itinerary.totalCostOfStay * 100}
                     token={ (token, billingAddress) => this.onToken(token, billingAddress) }
                     stripeKey={process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY}

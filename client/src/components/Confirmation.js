@@ -31,7 +31,7 @@ class Confirmation extends Component {
 
 
                 <div id="confirmationContainer">
-                    <h4>Your reservation has been booked! We hope you look forward to your stay at Hotel NoMa, San Francisco. A copy of your receipt has been
+                    <h4>Your reservation has been booked! We hope you look forward to your stay at Hotel Lucknow, Lucknow. A copy of your receipt has been
                         sent to your email ({this.props.itinerary.email}). Your stay confirmation number is #{this.props.itinerary.confirmationNumber}.
                         Please feel free to contact us by phone at (555) 415-5104 or by email at <a href={emailRef}>hotelnomaSF@gmail.com</a> if
                         you have any questions or concerns. We look forward to your stay!
@@ -39,7 +39,7 @@ class Confirmation extends Component {
                     <br />
 
                     <p>
-                        Like Hotel NoMa? Follow us on social media to find out about exclusive promotions and events:
+                        Like Hotel Lucknow? Follow us on social media to find out about exclusive promotions and events:
                         <br />
                         <a target="_blank" href="https://www.facebook.com" rel="noopener noreferrer">
                             <img src="https://png.icons8.com/facebook/dusk/40" title="Facebook" alt="facebook"/>

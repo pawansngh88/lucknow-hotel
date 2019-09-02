@@ -25,12 +25,12 @@ exports.forwardContactUsEmail = function(message, emailAddress) {
     // formatting forwarded email output.
     // NOTE: For the sake of testing, the email will be sent directly to the requester
     let mailOptions = {
-        from: '"Hotel NoMa Automated Services" <hotelnomaSF@gmail.com>',
+        from: '"Hotel Lucknow Automated Services" <hotelnomaSF@gmail.com>',
         to: emailAddress,
         subject: 'New customer inquiry',
         text: 'Dear Staff Member, a message was received on our website. Please do your best to assist the customer. The customer wrote:: ' + message,
         html: 'Dear Staff Member,<br /> A message was received on our website. The customer (' + emailAddress + ') wrote:<br/><br/>' + '<i><h3>"' + message + '"</h3></i>' +
-        '<br/><br/>Please do your best to assist the customer.<br/><br/>Sincerely, <br/>Hotel NoMa Automated Services<br/>(555) 415-5104<br/>' +
+        '<br/><br/>Please do your best to assist the customer.<br/><br/>Sincerely, <br/>Hotel Lucknow Automated Services<br/>(555) 415-5104<br/>' +
         '<a target="_blank" href="https://www.facebook.com"><img src="https://png.icons8.com/facebook/dusk/20" title="Facebook" alt="facebook"/></a> ' +
         '<a target="_blank" href="https://www.twitter.com"><img src="https://png.icons8.com/twitter/dusk/20" title="Twitter" alt="twitter"/></a> ' +
         '<a target="_blank" href="https://www.instagram.com"><img src="https://png.icons8.com/instagram-old/dusk/20" title="Instagram Old" alt="instagram"/></a>'

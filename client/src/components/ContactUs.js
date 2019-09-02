@@ -47,7 +47,7 @@ class ContactUs extends Component {
 
     render() {
         const replyEmail = 'hotelnoma@example.com';
-        let emailRef = 'mailto:' + replyEmail + '?subject=My question about Hotel NoMa';
+        let emailRef = 'mailto:' + replyEmail + '?subject=My question about Hotel Lucknow';
 
         return (
             <div className="container">
@@ -66,7 +66,7 @@ class ContactUs extends Component {
                     </Grid>
                 </div>
 
-                Have any questions, comments, or concerns? Please feel free to reach out to us. The staff at Hotel NoMa, San Francisco are dedicated
+                Have any questions, comments, or concerns? Please feel free to reach out to us. The staff at Hotel Lucknow, Lucknow are dedicated
                 to delivering an exceptional experience for each and every customer. You may fill out the form below to send an email
                 to our staff. You may also contact us via phone at (555) 415-5104 or by directly by email at <a href={emailRef}>hotelnomaSF@gmail.com</a>.
 

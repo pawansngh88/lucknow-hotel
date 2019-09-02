@@ -24,19 +24,19 @@ exports.sendConfirmation = function(customerName, confirmationNumber, email, boo
 
     // email message formatting
     let mailOptions = {
-        from: '"Hotel NoMa" <hotelnomaSF@gmail.com>',
+        from: '"Hotel Lucknow" <xyz@gmail.com>',
         to: email,
-        subject: 'Your upcoming stay in San Francisco, CA (' + enterDate + '- ' + exitDate + ')',
-        text: 'Thank you for booking your upcoming stay in San Francisco with us! We look forward to seeing you. If you purchased the breakfast ' +
+        subject: 'Your upcoming stay in Lucknow, IN (' + enterDate + '- ' + exitDate + ')',
+        text: 'Thank you for booking your upcoming stay in Lucknow with us! We look forward to seeing you. If you purchased the breakfast ' +
         'addon, you will receive vouchers upon checking in at the front desk. If you purchased the shuttle ride addon, a transportation specialist ' +
-        'will contact you shortly before your arrival. Please feel free to call us at (555) 415-5104 or simply respond back to this email if you have any ' +
-        'questions or concerns. For activity suggestions in the area, please visit http://www.sftravel.com/explore for a great resource of local activities.' +
+        'will contact you shortly before your arrival. Please feel free to call us at (0522) 2222-2222 or simply respond back to this email if you have any ' +
+        'questions or concerns. For activity suggestions in the area, please visit http://www.xyz.com/explore for a great resource of local activities.' +
         'Your itinerary: confirmation number: ' + confirmationNumber + ' time at booking: ' + bookTime + 'blah blah blah. Finish later',
 
-        html: '<h4>' + customerName + ', <br/><br/>' + 'Thank you for booking your upcoming stay in San Francisco with us! We look forward to seeing you. If you purchased the breakfast ' +
+        html: '<h4>' + customerName + ', <br/><br/>' + 'Thank you for booking your upcoming stay in Lucknow with us! We look forward to seeing you. If you purchased the breakfast ' +
         'addon, you will receive vouchers upon checking in at the front desk. If you purchased the shuttle ride addon, a transportation specialist ' +
-        'will contact you shortly before your arrival. Please feel free to call us at (555) 415-5104 or simply respond back to this email if you have any ' +
-        'questions or concerns. For activity suggestions in the area, please visit <a href="http://www.sftravel.com/explore">http://www.sftravel.com/explore</a> for a great resource of local activities. </h4>' +
+        'will contact you shortly before your arrival. Please feel free to call us at (0522) 2222-2222 or simply respond back to this email if you have any ' +
+        'questions or concerns. For activity suggestions in the area, please visit <a href="http://www.xyz.com/explore">http://www.xyz.com/explore</a> for a great resource of local activities. </h4>' +
         '<img src="https://i.imgur.com/dhenj1R.jpg?1" alt="goldenGate" align="center"/> <br /><br /> <h3>Your itinerary:</h3>' +
         '<hr /> Confirmation number: ' + confirmationNumber + '<hr />' +
         'Time at booking: ' + bookTime + '<hr />' +
@@ -51,7 +51,7 @@ exports.sendConfirmation = function(customerName, confirmationNumber, email, boo
         'Late Check-out: ' + lateCheckout + '<hr />' +
         'Breakfast: ' + breakfast + '<hr />' +
         'Shuttle ride: ' + shuttleRide + '<hr /><br/><br/>' +
-        'Sincerely, <br/>Hotel NoMa Management<br/>(555) 415-5104<br/>' +
+        'Sincerely, <br/>Hotel Lucknow Management<br/>(0522) 2222-2222<br/>' +
         '<a target="_blank" href="https://www.facebook.com"><img src="https://png.icons8.com/facebook/dusk/20" title="Facebook" alt="facebook"/></a> ' +
         '<a target="_blank" href="https://www.twitter.com"><img src="https://png.icons8.com/twitter/dusk/20" title="Twitter" alt="twitter"/></a> ' +
         '<a target="_blank" href="https://www.instagram.com"><img src="https://png.icons8.com/instagram-old/dusk/20" title="Instagram Old" alt="instagram"/></a>'

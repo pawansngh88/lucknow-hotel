@@ -63,7 +63,7 @@ export function pricingTable (state, itinerary, pricing, handleAddonChange, tota
                     <td>
                         <label>
                             <input name="shuttleRide" type="checkbox" onChange={handleAddonChange} />
-                            &nbsp;San Francisco Airport shuttle (${(pricing.shuttleRideCost).toFixed(2)} x {itinerary.numAdults} adults) (round-trip, charged per guest)
+                            &nbsp;Lucknow Airport shuttle (${(pricing.shuttleRideCost).toFixed(2)} x {itinerary.numAdults} adults) (round-trip, charged per guest)
                         </label>
                     </td>
                     <td id="costAlignRight">{state.shuttleRideCost}</td>
