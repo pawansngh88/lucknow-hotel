@@ -14,7 +14,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
-  "author": "Alex Ha",
+  "author": "PSI",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",

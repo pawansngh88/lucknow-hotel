@@ -52,7 +52,7 @@ class Footer extends Component {
                                     <img src="https://png.icons8.com/instagram-old/dusk/20" title="Instagram Old" alt="instagram"/>
                                 </a>
                                 <br />
-                                © 2017 Alex Ha
+                                © 2019 PSI
                                 <br />
                                 <hr id="footerBar"/>
                             </Col>
